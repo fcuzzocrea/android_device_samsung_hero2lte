@@ -18,16 +18,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from herolte device
-$(call inherit-product, device/samsung/herolte/device.mk)
+# Inherit from hero2lte device
+$(call inherit-product, device/samsung/hero2lte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := herolte
-PRODUCT_NAME := lineage_herolte
+PRODUCT_DEVICE := hero2lte
+PRODUCT_NAME := lineage_hero2lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G930F
 PRODUCT_MANUFACTURER := samsung
@@ -36,7 +36,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=heroltexx \
-    PRIVATE_BUILD_DESC="heroltexx-user 8.0.0 R16NW G930FXXU2ERD5 release-keys"
+    PRODUCT_NAME=hero2ltexx \
+    PRIVATE_BUILD_DESC="hero2ltexx-user 8.0.0 R16NW G935FXXU2ERD5 release-keys"
 
-BUILD_FINGERPRINT := samsung/heroltexx/herolte:8.0.0/R16NW/G930FXXU2ERD5:user/release-keys
+BUILD_FINGERPRINT := samsung/hero2ltexx/hero2lte:8.0.0/R16NW/G930FXXU2ERD5:user/release-keys

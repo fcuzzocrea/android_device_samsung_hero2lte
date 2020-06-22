@@ -16,20 +16,20 @@
 # inherit from common
 include device/samsung/universal8890-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/herolte
+DEVICE_PATH := device/samsung/hero2lte
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := heroltebmc,herolteskt,heroltektt,heroltelgt,heroltexx,herolte
+TARGET_OTA_ASSERT_DEVICE := hero2ltebmc,hero2lteskt,hero2ltektt,hero2ltelgt,hero2ltexx,hero2lte
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/universal8890
-TARGET_KERNEL_CONFIG := exynos8890-herolte_defconfig
+TARGET_KERNEL_CONFIG := exynos8890-hero2lte_defconfig
 
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2020-04-20
 
 # inherit from the proprietary version
--include vendor/samsung/herolte/BoardConfigVendor.mk
+-include vendor/samsung/hero2lte/BoardConfigVendor.mk

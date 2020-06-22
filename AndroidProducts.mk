@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_herolte.mk
+    $(LOCAL_DIR)/lineage_hero2lte.mk

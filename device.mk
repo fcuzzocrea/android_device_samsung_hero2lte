@@ -20,4 +20,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product, device/samsung/universal8890-common/device-common.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product-if-exists, vendor/samsung/herolte/herolte-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/hero2lte/hero2lte-vendor.mk)
