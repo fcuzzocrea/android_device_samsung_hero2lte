@@ -46,7 +46,7 @@ void vendor_load_properties()
         /* hero2ltexx */
         property_override("ro.build.description", "hero2ltexx-user 8.0.0 R16NW G935FXXU2ERD5 release-keys");
         set_ro_product_prop("device", "hero2ltexx");
-        set_ro_product_prop("fingerprint", "samsung/hero2ltexx/hero2lte:8.0.0/R16NW/G935FXXU2ERD5:user/release-keys");
+        set_build_fingerprint("samsung/hero2ltexx/hero2lte:8.0.0/R16NW/G935FXXU2ERD5:user/release-keys");
         set_ro_product_prop("model", "SM-G935F");
         set_ro_product_prop("name", "hero2ltexx");
         gsm_properties("9");
@@ -54,7 +54,7 @@ void vendor_load_properties()
         /* hero2ltebmc */
         property_override("ro.build.description", "hero2ltebmc-user 8.0.0 R16NW G935W8VLS7CTB2 release-keys");
         set_ro_product_prop("device", "hero2ltebmc");
-        set_ro_product_prop("fingerprint", "samsung/hero2ltebmc/hero2ltebmc:8.0.0/R16NW/G935W8VLS7CTB2:user/release-keys");
+        set_build_fingerprint("samsung/hero2ltebmc/hero2ltebmc:8.0.0/R16NW/G935W8VLS7CTB2:user/release-keys");
         set_ro_product_prop("model", "SM-G935W8");
         set_ro_product_prop("name", "hero2ltebmc");
         gsm_properties("9");
@@ -62,7 +62,7 @@ void vendor_load_properties()
         /* hero2lteskt */
         property_override("ro.build.description", "hero2lteskt-user 8.0.0 R16NW G935SKSU3ETD2 release-keys");
         set_ro_product_prop("device", "hero2lteskt");
-        set_ro_product_prop("fingerprint", "samsung/hero2lteskt/hero2lteskt:8.0.0/R16NW/G935SKSU3ETD2:user/release-keys");
+        set_build_fingerprint("samsung/hero2lteskt/hero2lteskt:8.0.0/R16NW/G935SKSU3ETD2:user/release-keys");
         set_ro_product_prop("model", "SM-G935S");
         set_ro_product_prop("name", "hero2lteskt");
         gsm_properties("9");
@@ -70,7 +70,7 @@ void vendor_load_properties()
         /* hero2ltektt */
         property_override("ro.build.description", "hero2ltektt-user 8.0.0 R16NW G935KKKU3ETD2 release-keys");
         set_ro_product_prop("device", "hero2ltektt");
-        set_ro_product_prop("fingerprint", "samsung/hero2ltektt/hero2ltektt:8.0.0/R16NW/G935KKKU3ETD2:user/release-keys");
+        set_build_fingerprint("samsung/hero2ltektt/hero2ltektt:8.0.0/R16NW/G935KKKU3ETD2:user/release-keys");
         set_ro_product_prop("model", "SM-G935K");
         set_ro_product_prop("name", "hero2ltektt");
         gsm_properties("9");
@@ -78,7 +78,7 @@ void vendor_load_properties()
         /* hero2ltelgt */
         property_override("ro.build.description", "hero2ltelgt-user 8.0.0 R16NW G935LKLU3ETD2 release-keys");
         set_ro_product_prop("device", "hero2ltelgt");
-        set_ro_product_prop("fingerprint", "samsung/hero2ltelgt/hero2ltelgt:8.0.0/R16NW/G935LKLU3ETD2:user/release-keys");
+        set_build_fingerprint("samsung/hero2ltelgt/hero2ltelgt:8.0.0/R16NW/G935LKLU3ETD2:user/release-keys");
         set_ro_product_prop("model", "SM-G935L");
         set_ro_product_prop("name", "hero2ltelgt");
         gsm_properties("9");
